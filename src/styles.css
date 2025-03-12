@@ -1,0 +1,50 @@
+html{
+    font-size:16px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.weatherApp{
+    background:linear-gradient(0,rgba(38, 224, 215),rgba(155, 205, 224));
+    width:100vw;
+    height:100vh;
+    color:white;
+    text-align:center;
+    padding-top:1rem;
+}
+
+.temperature{
+    font-size:6rem;
+}
+div.data{
+    margin-top:6rem;
+}
+.weatherApp input{
+    font-size:1.8rem;
+    padding:0.7rem;
+    width:70%;
+    border-radius:2rem;
+    position:relative;
+    padding-left:2rem;
+}
+.find-icon{
+    width:30px;
+    height:30px;
+    margin-right:1rem;
+    position:absolute;
+    z-index:1;
+    right:12rem;
+    top:2rem;
+    cursor:pointer;
+
+}
+.data h1{
+    font-size:3rem;
+}
+.data .state{
+    font-size:1.7rem;
+}
+.data h1,.data p{
+    margin-bottom:1.2rem;
+}
